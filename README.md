@@ -34,7 +34,7 @@ There are 2 processes that check and try to restart Zigbee communication:
 
 # >> Node-Red flow
 
-The [Json flow file](Zigbee2MQTT.json):
+The [Json flow file](ZigbeeFlow.json):
 ![Zigbee Flow](Images/ZigbeeFlow.png)
 The image above only shows the basics, the flow itself has additionals diagnostics and debug functions.
 
@@ -85,7 +85,7 @@ What is needed?
 * An XML USB configuration file
 
 ## The XML being called to re-attach the Zigbee USB device
-The [z2m_usb_device.xml file](z2m_usb_device.xml) should be accessable outside the VM, in this flow at 
+The [z2m_usb_device.xml](z2m_usb_device.xml) file should be accessable outside the VM, in this flow at 
 '/share/CACHEDEV1_DATA/VM/Home Assistant/config/z2m_usb_device.xml'
 
 ```
