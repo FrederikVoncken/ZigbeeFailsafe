@@ -1,4 +1,4 @@
-# ZigbeeFailsafe
+> # ZigbeeFailsafe
 A zigbee fail-safe for Home Assistant running as a VM on a (QNAP) server.
 One of my automations on Home Assistant is Node-Red, which I will use to autmate this fail-safe.
 
